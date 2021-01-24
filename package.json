@@ -14,9 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "i": "^0.3.6",
-    "if-env": "^1.0.4",
-    "mongoose": "^5.11.13"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
