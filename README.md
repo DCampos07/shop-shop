@@ -31,31 +31,35 @@ npm install
 ```  
 
 <h2 id= "tech">Technology Stack</h2>
-* Create React App
-* React
-* Redux
-* Node.js
-* Express.js
-* Apollo Server
-* MongoDB and Mongoose
-* JSON Web Token
-* JavaScript
-* HTML and CSS
-* Heroku
+<li>Create React App</li>
+<li>React</li>
+<li>Redux</li>
+<li>Node.js</li>
+<li>Express.js</li>
+<li>Apollo Server</li>
+<li>MongoDB and Mongoose</li>
+<li>JSON Web Token</li>
+<li>JavaScript</li>
+<li>HTML and CSS</li>
+<li>Heroku</li>
 
 <h2 id= "usage">Usage</h2>
-### Development Usage
- In order to use the application locallaly, Run the following command:  
+
+<h3> Development Usage</h3>
+In order to use the application locally, Run the following command:  
 ```script
 npm start
 ```  
-### Application Usage
-Deployed application: [(STATE)Shop-Shop](https://-shop.herokuapp.com/)  
-Test login credentials: email: user1@test.com  password: user1000  
+
+<h3> Application Usage</h3>
+
+<h4>Test login credentials:</h5>
+<li>email: user1@test.com</li>  
+<li>password: user1000</li>
   
-For checkout testing:
-Credit Card number: 1234 5678 9101 0000  
-Rest of the information can be completely random  
+<h4>For checkout testing:</h5>
+<li>Credit Card number: 1234 5678 9101 0000  </li> 
+<li>The rest of the information can be completely random  </li> 
 
 <h2 id= "demo">Demonstration</h2>
 
@@ -64,7 +68,7 @@ Rest of the information can be completely random
 ![Screenshot of the Application](https://github.com/DCampos07/shop-shop/blob/main/demos/shop_screenshot.png "shop-shop creenshot")  
 
 
-h2 id= "contact">Contact</h2>
+<h2 id= "contact">Contact</h2>
 
 <li>Name: Damaris Campos</li> 
 <li>Github: https://github.com/DCampos07</li> 
