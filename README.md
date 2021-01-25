@@ -16,7 +16,7 @@
 <li><a href="#contact">Contact</a></li> 
 
 <h2 id= "live">Live Application:</h2>
-Live Link: https://dcampos07.github.io/shop-shop/
+Live Link: https://dcc4-shop-shop.herokuapp.com/
 
 <h2 id= "description">Description</h2>
 The challenge this week is to refactor the e-commerce platform from the module project using REACT so that it uses Redux.
