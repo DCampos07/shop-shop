@@ -15,8 +15,8 @@
 <li><a href="#demo">Demostration</a></li> 
 <li><a href="#contact">Contact</a></li> 
 
-<h2 id= "live">Live Aplication:</h2>
-![Live](https://dcampos07.github.io/shop-shop/)
+<h2 id= "live">Live Application:</h2>
+[Live](https://dcampos07.github.io/shop-shop/)
 
 <h2 id= "description">Description</h2>
 The challenge this week is to refactor the e-commerce platform from the module project using REACT so that it uses Redux.
