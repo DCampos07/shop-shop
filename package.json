@@ -12,7 +12,7 @@
     "heroku-postbuild": "cd client && npm run build"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "if-env": "^1.0.4"
   },
