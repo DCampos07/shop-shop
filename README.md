@@ -7,7 +7,6 @@
 ## Table of Contents
 
 <li><a href="#description">Description</a></li>  
-<li><a href="#application">Description</a></li> 
 <li><a href="#installation">Installation</a></li> 
 <li><a href="#tech">Technology Stack</a></li> 
 <li><a href="#usage">Usage</a></li> 
@@ -19,13 +18,10 @@
 <h2 id= "description">Description</h2>
 The challenge this week is to refactor the e-commerce platform from the module project using REACT so that it uses Redux.
 
-<h2 id= "application">Deployed Application</h2>
-Link to the application running on Heroku: [Shop-Shop](https://.herokuapp.com/)
-
 
 <h2 id= "installation">Installation</h2> 
 
-Intialize node package manager and then run the following commands;  
+Intialize node package manager and then run the following commands:
 ```script
 npm install
 ```  
@@ -46,7 +42,8 @@ npm install
 <h2 id= "usage">Usage</h2>
 
 <h3> Development Usage</h3>
-In order to use the application locally, Run the following command:  
+
+In order to use the application locally, Run the following command:
 ```script
 npm start
 ```  
