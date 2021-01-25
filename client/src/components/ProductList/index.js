@@ -1,15 +1,17 @@
 import React, { useEffect } from "react";
-import ProductItem from "../ProductItem";
-import { useDispatch, useSelector } from 'react-redux';
-import { UPDATE_PRODUCTS } from "../../utils/actions";
 import { useQuery } from '@apollo/react-hooks';
-import { QUERY_PRODUCTS } from "../../utils/queries";
 import { idbPromise } from "../../utils/helpers";
+import ProductItem from "../ProductItem";
+//import { useStoreContext } from "../../utils/GlobalState";
+import { useSelector, useDispatch } from "react-redux";
+import { UPDATE_PRODUCTS } from "../../utils/actions";
+import { QUERY_PRODUCTS } from "../../utils/queries";
 import spinner from "../../assets/spinner.gif"
 
 function ProductList() {
-  const dispatch = useDispatch();
+  // const [state, dispatch] = useStoreContext();
   const state = useSelector(state => state);
+  const dispatch = useDispatch();
 
   const { currentCategory } = state;
 
@@ -21,15 +23,16 @@ function ProductList() {
            type: UPDATE_PRODUCTS,
           products: data.products
         });
-        data.products.forEach((product) => {
-          idbPromise('products', 'put', product);
-        });
-    } else if (!loading) {
+      
+      data.products.forEach((product) => {
+        idbPromise('products','put',product);
+      });
+    } else if(!loading){
       idbPromise('products', 'get').then((products) => {
         dispatch({
           type: UPDATE_PRODUCTS,
-         products: products
-       });
+          products: products
+        });
       });
     }
   }, [data, loading, dispatch]);
