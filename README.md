@@ -58,7 +58,7 @@ npm start
 <li>password: user1000</li>
   
 <h4>For checkout testing:</h5>
-<li>Credit Card number: 1234 5678 9101 0000  </li> 
+<li>Credit Card number: 4242 4242 4242 4242  </li> 
 <li>The rest of the information can be completely random  </li> 
 
 <h2 id= "demo">Demonstration</h2>
