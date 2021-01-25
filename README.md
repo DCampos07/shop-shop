@@ -4,8 +4,10 @@
 <img align="left" src="https://img.shields.io/badge/License-MIT-green" alt="license">
 <img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/68753563?s=400&u=db8ed5c85d35601b1cace358ee79fa43b9f12676&v=4" alt="Github Profile Image"><hr>
 
+
 ## Table of Contents
 
+<li><a href="#live">Live App</a></li>
 <li><a href="#description">Description</a></li>  
 <li><a href="#installation">Installation</a></li> 
 <li><a href="#tech">Technology Stack</a></li> 
@@ -13,7 +15,8 @@
 <li><a href="#demo">Demostration</a></li> 
 <li><a href="#contact">Contact</a></li> 
 
-
+<h2 id= "live">Live Aplication:</h2>
+![Live](https://dcampos07.github.io/shop-shop/)
 
 <h2 id= "description">Description</h2>
 The challenge this week is to refactor the e-commerce platform from the module project using REACT so that it uses Redux.
